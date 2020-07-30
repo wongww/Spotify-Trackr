@@ -1,0 +1,80 @@
+.Main {
+  font-family: Circular;
+  margin: auto;
+  align-items: center;
+  display: block;
+  justify-content: center;
+  margin-left: 60%;
+  transition: margin-left 1s;
+
+}
+.Title{
+  font-size:4em;
+  margin-bottom: .5em;
+  text-align:left;
+  transition: font-size 0.5s;
+  color:white;
+}
+.Description{
+  font-size:2em;
+  line-height:1em;
+  text-align:left;
+  margin-top:-0.5em;
+  width: 70%;
+  transition: font-size 0.5s;
+  color:white;
+}
+.HomeButton{
+  font-family: Circular;
+  font-size: 1em;
+  border-radius: 50em;
+  background-color: #1ED760;
+  border:none;
+  color:white;
+  text-align: center;
+  height:3em;
+  width:9em;
+  text-align:center;
+  outline:0;
+  transition: font-size 0.5s;
+
+}
+.HomeButton:hover{
+  transition-duration: 0.4s;
+  background-color: #4bdf80;
+  cursor:pointer;
+  outline:0;
+}
+.HomeButton:active{
+  outline:0;
+  background-color: #1DB954;
+  transition-duration: 2s;
+}
+@media only screen and (max-width: 35em) {
+  .Description{
+    font-size: 1.25em;
+  }
+  .Title{
+    font-size: 3em;
+  }
+  .Main{
+    margin-left:50%;
+  }
+  .HomeButton{
+    font-size: 0.75em;
+  }
+}
+
+
+/*Spotify Font Replica*/
+@font-face{
+  font-family: "Circular";
+  src: url("fonts/circular-black.woff2") format('woff2');
+}
+body{
+  min-height: 100%;
+}
+html{
+  margin:0;
+  min-height: 100%;
+}

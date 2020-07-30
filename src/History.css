@@ -1,0 +1,36 @@
+.Welcome{
+	color:black;
+	font-size:3em;
+	font-family: Circular;
+	text-align: center;
+	margin-top:15%;
+
+}
+.Navbar{
+	text-align:right;
+	font-size: 1.2em;
+	font-family:Circular;
+	margin-right:5%;
+
+}
+.Navbar:hover{
+	cursor:pointer;
+	color:#1DB954;
+}
+.NavLink{
+	text-decoration: none;
+	color:inherit;
+}
+.Table{
+	font-family: Circular;
+	font-size: 1em;
+	text-align: center;
+	display: block;
+}
+span{
+	white-space: nowrap;
+}
+@font-face{
+  font-family: "Circular";
+  src: url("fonts/circular-black.woff2") format('woff2');
+}
