@@ -42,7 +42,7 @@ class History extends React.Component {
 
     });
     // open the request with the verb and the url
-    xhr.open('GET', 'http://localhost:8888/history');
+    xhr.open('GET', 'https://spotifytrackr.herokuapp.com/history');
     // send the request
     xhr.send();
   }
