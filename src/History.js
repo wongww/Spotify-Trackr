@@ -48,11 +48,13 @@ class History extends React.Component {
   }
 	render(){
 		const loggedIn = readCookie("loggedIn");
-		if(loggedIn !== "true"){
-			return(
-				<Redirect to="/" />
-			);
-		}
+		console.log(loggedIn);
+		// if(loggedIn !== "true"){
+		// 	console.log("Not Logged in");
+		// 	return(
+		// 		<Redirect to="/" />
+		// 	);
+		// }
 		if(this.state.isFetching)return <div>Loading...</div>;
 		else{
 			var welcomeText = "Every Song You've Ever"
